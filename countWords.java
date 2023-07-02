@@ -3,9 +3,6 @@ package theLoverChoice;
 import java.util.Scanner;
 
 public class countWords {
-
-	
-//	public class Solution {
 		public static int countWords(String str) {	
 			if(str.length() == 0){
 				return 0;
@@ -18,12 +15,13 @@ public class countWords {
 			}
 			return count+1;
 		}
-//	}
 
 	
-	public static void main(String[] args) {			
+	public static void main(String[] args) {	
+		
 				Scanner sr= new Scanner(System.in);
-				String str = sr.nextLine();
+		                String str = sr.nextLine();
+		
 				if(str==null)
 				{
 					str="";
